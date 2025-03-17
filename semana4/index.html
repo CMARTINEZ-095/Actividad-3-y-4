@@ -6,34 +6,72 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Encuesta # 1</h2>
+    <h2>Formulario de Registro</h2>
     <form action="https://playground.mockoon.com/contacts" method="post">
     <div>
-        <label for="Nombre">Nombre:</label>
+        <label for="Nombre">Nombre completo:</label>
         <input type="nombre" name="" id="nombre" required>
     </div>
     <div>   
-        <label for="Correo electronico">Email:</label>
+        <label for="Correo electronico">Correo electronico:</label>
         <input type="Correo" name="Correo" id="Correo" required>
     </div> 
     <div>
-
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="comntraseña"required>
+    </div>
+    <div>
+        <label for="Confirmar contraseña">Confirmar contraseña</label>
+        <input type="password" name="contraseña" id="Confirmar contraseña"required>
+    </div>
+    <div>
+        <label for="fecha de nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="fecha" id="fecha de nacimiento"required>
+    </div>
+    <div>
+        <label for="genero">Genero</label>
+        <br>
+        <input type="radio" name="genero" id="Genero"value="Masculino">Masculino 
+        <br>
+        <input type="radio" name="genero" id="genero"value="Femenino">Femenino
+    </div>
+    <div>
         <label for="Edad">Edad:</label>
         <input type="Edad" name="Edad" id="Edad" required>
     </div>
     <div>
-
+        <label for="Intereses">Intereses</label>
+        <input type="checkbox" name="intereses" id="intereses">
+        <br>
+        <label for="Intereses">Cine</label>
+        <input type="checkbox" name="cine" id="cine">
+        <br>
+        <label for="Intereses">Futbol</label>
+        <input type="checkbox" name="Futbol" id="Futbol">
+        <br>
+        <label for="Intereses">Gym</label>
+        <input type="checkbox" name="Gym" id="Gym">
+        <br>
+        <label for="Intereses">leer</label>
+        <input type="checkbox" name="leer" id="leer">
+    </div>
+    <div>
         <label for="mensaje">Mensaje</label>
         <textarea name="Mensaje" id="Mensaje" rows="4"></textarea>
     </div>
     <div>
-
         <label for="Pais">Pais</label>
         <select name="Pais" id="Pais" required>
             <option value="">Selecione su pais</option>
             <option value="co">Colombia</option>
-            <option value="Mx">Mexico</option>
-            <option value="Es">España</option>
+            <option value="Mx">Argentina</option>
+            <option value="Es">Venezuela</option>
+            <option value="Es">Paraguay</option>
+            <option value="Es">Uruguay</option>
+            <option value="Es">Peru</option>
+            <option value="Es">Bolivia</option>
+            <option value="Es">Brasil</option>
+            <option value="Es">Otro</option>
         </div>
         <div>
             
